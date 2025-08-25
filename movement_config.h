@@ -29,11 +29,11 @@
 
 const watch_face_t watch_faces[] = {
     clock_face,
-    sunrise_sunset_face,
     fast_stopwatch_face,
     countdown_face,
     advanced_alarm_face,
     totp_face,
+    sunrise_sunset_face,
     temperature_display_face,
     voltage_face,
     settings_face,
