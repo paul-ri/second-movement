@@ -82,7 +82,8 @@ static void schedule_countdown(countdown_state_t *state) {
 }
 
 static void auto_repeat(countdown_state_t *state) {
-    movement_play_alarm();
+    movement_play_signal();
+    movement_play_signal();
     load_countdown(state);
     schedule_countdown(state);
 }
@@ -160,7 +161,8 @@ static void reset(countdown_state_t *state) {
 }
 
 static void ring(countdown_state_t *state) {
-    movement_play_alarm();
+    movement_play_signal();
+    movement_play_signal();
     reset(state);
 }
 
